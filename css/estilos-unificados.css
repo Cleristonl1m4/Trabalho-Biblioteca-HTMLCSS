@@ -8,7 +8,7 @@ body {
 }
 
 a {
-    color:  white;
+    color: white;
     text-decoration: none;
 }
 
@@ -24,10 +24,12 @@ img {
 
 header {
     background-color: #613e3b;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-    border-bottom: #007bff 3px solid;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header img {
@@ -349,7 +351,7 @@ footer div p {
     padding: 20px;
 }
 
-.livros-mais-comprados{
+.livros-mais-comprados {
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -357,11 +359,14 @@ footer div p {
     padding: 20px;
 }
 
-.home-livros mais-comprados{
+.home-livros mais-comprados {
     width: 250px;
     height: auto;
 }
 
-.mais-comprados{
-    
+.mais-comprados {}
+
+.img-logo {
+    width: 100px;
+    height: auto;
 }
