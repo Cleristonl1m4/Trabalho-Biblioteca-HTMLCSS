@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>SAC - Atendimento ao Cliente</title>
+    <link href="css/estilos-unificados.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>📚 Bem-vindo(a) ao SAC</h1>
+        <p>O lugar onde você ira tirar suas duvidas.</p>
+    </header>
+    <nav>
+        <strong>
+            <a href="home.html">Home</a>
+            <a href="catalogo.html">Catalogo de livros</a>
+            <a href="Livros destaques.html">Destaques</a>
+            <a href="sac.html"><span>Sac</span></a>
+            <a href="AutoresEditoras.html">Autores</a>
+            <a href="eventos.html">Eventos</a>
+        </strong>
+    </nav>
+    <main>
+        <h2>Canal de Atendimento ao Cliente</h2>
+        <p>Entre em contato conosco para tirar suas dúvidas.</p>
+        <form action="/enviar-mensagem" method="POST">
+            <label for="nome">Nome:</label>
+            <input id="nome" name="nome" required="" type="text" />
+            <label for="email">Email:</label>
+            <input id="email" name="email" required="" type="email" />
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required="" rows="5"></textarea>
+            <button type="submit">Enviar Mensagem</button>
+            <button type="reset">Limpar</button>
+        </form>
+        <p>📞 Telefone: (11) 1234-5678</p>
+        <p>📧 Email: contato@universodaspalavras.com.br</p>
+    </main>
+    <footer>
+        <p>📍 Endereço: Av. Cesário Alvim 274, Uberlândia, MG, 38400-096</p>
+        <p>© 2025 Livraria Universo das Palavras</p>
+    </footer>
+</body>
+
+</html>

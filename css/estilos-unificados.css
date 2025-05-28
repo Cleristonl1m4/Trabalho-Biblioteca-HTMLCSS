@@ -1,0 +1,367 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    color:  white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+header {
+    background-color: #613e3b;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: #007bff 3px solid;
+}
+
+header img {
+    width: 150px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header h1 span span {
+    color: #007bff;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+nav {
+    background-color: #ca763a;
+    padding: 0.8rem 0;
+    text-align: center;
+}
+
+nav strong a {
+    color: #fff;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+nav strong a:hover,
+nav strong a span {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+section {
+    padding: 1.5rem;
+    margin: 1rem auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+
+}
+
+section h1,
+section h2,
+section h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+section h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+section p,
+section ul,
+section ol {
+    margin-bottom: 1rem;
+}
+
+section ul,
+section ol {
+    padding-left: 1.5rem;
+}
+
+section div>h2,
+section div>h3 {
+    color: #0056b3;
+}
+
+section span {
+    font-weight: bold;
+    color: #555;
+}
+
+section p span span {
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+main {
+    padding: 1.5rem;
+    margin: 1rem auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+}
+
+main h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 1.5rem;
+}
+
+main div {
+    text-align: center;
+}
+
+main div img {
+    margin: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+
+form {
+    margin-top: 1rem;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+    color: #0056b3;
+    padding: 0 0.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: calc(100% - 22px);
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+input[type="submit"],
+button[type="submit"],
+button[type="reset"] {
+    background-color: #007bff;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="reset"] {
+    background-color: #6c757d;
+}
+
+button[type="reset"]:hover {
+    background-color: #5a6268;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+footer {
+    background-color: #613e3b;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.3rem 0;
+}
+
+footer div p {
+    font-size: 0.9rem;
+}
+
+
+.TestesBody h1 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.TestesBody h2 {
+    color: #0056b3;
+    margin-top: 1.5rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+.TestesBody ol,
+.TestesBody ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.TestesBody ol li,
+.TestesBody ul li {
+    margin-bottom: 1.5rem;
+}
+
+.TestesBody ol li img,
+.TestesBody ul li img {
+    display: block;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.TestesBody div[align="center"] {
+    margin-top: 2rem;
+}
+
+.TestesBody div[align="center"] button {
+    background-color: #6c757d;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.TestesBody div[align="center"] button:hover {
+    background-color: #545b62;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav strong a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    section,
+    main {
+        margin: 1rem 0.5rem;
+        padding: 1rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    select {
+        width: 100%;
+    }
+}
+
+#home-div-livro {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.livros-mais-comprados{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.home-livros mais-comprados{
+    width: 250px;
+    height: auto;
+}
+
+.mais-comprados{
+    
+}
