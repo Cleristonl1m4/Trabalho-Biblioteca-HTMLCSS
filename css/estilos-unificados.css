@@ -17,7 +17,7 @@ a:hover {
 }
 
 img {
-    max-width: 100%;
+    width: 250px;
     height: auto;
 }
 
@@ -29,7 +29,7 @@ header {
     gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header img {
@@ -343,14 +343,6 @@ footer div p {
     }
 }
 
-#home-div-livro {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-
 .livros-mais-comprados {
     display: flex;
     justify-content: center;
@@ -358,13 +350,6 @@ footer div p {
     flex-wrap: wrap;
     padding: 20px;
 }
-
-.home-livros mais-comprados {
-    width: 250px;
-    height: auto;
-}
-
-.mais-comprados {}
 
 .img-logo {
     width: 100px;
