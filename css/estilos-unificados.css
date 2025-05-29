@@ -30,6 +30,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
 }
 
 header img {
